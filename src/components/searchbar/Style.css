@@ -1,0 +1,26 @@
+.HeaderSearch {
+    margin-top: 4px;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    width: 50%;
+    height: 50px;
+    
+}
+
+.inputSearch {
+    justify-content: center;
+    width: 280px;
+    height: 40px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    
+    
+}
+
+.SearchLupa {
+    width: auto;
+    max-width: 30px;
+    height: auto;
+    max-height: 30px;
+}

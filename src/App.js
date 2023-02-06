@@ -1,6 +1,7 @@
 import "./App.css"
 import HomePage from "../src/pages/home/HomePage"
 import Album from "../src/pages/album/Album"
+import Dashboard from "../src/pages/dashboard/Dashboard"
 import Category from "../src/pages/category/Category"
 import Galery from "../src/pages/galery/Galery"
 import Add_Photos from "../src/pages/add_photos/Add_Photos"
@@ -19,6 +20,7 @@ function App() {
         <Switch>
           <Route exact path='/' component={HomePage} />
           <Route exact path='/Album' component={Album} />
+          <Route exact path='/Dashboard' component={Dashboard} />
           <Route exact path='/Category' component={Category} />
           <Route exact path='/Galery' component={Galery} />
           <Route exact path='/Add_Photos' component={Add_Photos} />

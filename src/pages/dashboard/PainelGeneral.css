@@ -1,0 +1,43 @@
+.containerDashBoard {
+    display: flex;
+    justify-content: space-evenly;
+    height: 45vh;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+.navigator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    width: 300px;
+    background-color:#222121 ;
+    border-radius: 20px;
+}
+
+.logo_navigate {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin-top: 20px;
+}
+
+.title_navigate_left {
+    margin-top: 40px;
+}
+
+.links {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}

@@ -1,0 +1,31 @@
+.container_add_photos {
+    background-color: rgb(85, 97, 97);
+    display: flex;
+    width: "80vw";
+    height:"auto";   
+    flex-direction: column;
+}
+
+.row_header_add_photos {
+    display: flex;
+    width: auto;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.header_add_photos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.title_add_photos {
+    font-size: 20;
+    text-align: start;
+}
+
+.logo_header {
+    width: 150px;
+    height: 150px;
+}

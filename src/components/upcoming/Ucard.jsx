@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from "react-router-dom"
+//import { Link } from "react-router-dom"
 
 const Ucard = ({ item: { id, cover, name, time } }) => {
   return (
